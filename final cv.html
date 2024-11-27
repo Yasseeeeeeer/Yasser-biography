@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yasser Zahid - Resume</title>
+    <style>
+        /* Animation Keyframes */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes hoverEffect {
+            from { transform: scale(1); }
+            to { transform: scale(1.05); }
+        }
+
+        /* General Style */
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to bottom, #0D1F23, #132E35);
+            color: #AFB3B7;
+            overflow-x: hidden;
+        }
+
+        /* Header Section */
+        header {
+            background: linear-gradient(to right, #2D4A53, #69818D);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2em;
+            color: #AFB3B7;
+        }
+
+        /* Main Container */
+        .container {
+            max-width: 900px;
+            margin: -40px auto 20px;
+            background: #132E35;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        /* Section Titles */
+        section {
+            margin-bottom: 20px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        section h2 {
+            color: #AFB3B7;
+            border-bottom: 2px solid #AFB3B7;
+            display: inline-block;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        /* Lists Styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            padding: 10px;
+            background: #2D4A53;
+            color: #AFB3B7;
+            border-radius: 5px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        ul li:hover {
+            transform: scale(1.05);
+            background: #69818D;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            padding: 15px 0;
+            background: #0D1F23;
+            color: #AFB3B7;
+            margin-top: 20px;
+            clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 85%);
+            animation: fadeIn 2.5s ease-in-out;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Yasser Zahid</h1>
+        <p>Business Administration Student & Tech Enthusiast</p>
+    </header>
+    <div class="container">
+        <section>
+            <h2>Profile</h2>
+            <p>I am a business administration student with a passion for computer science. My aim is to develop my digital projects and excel in project management and data analysis.</p>
+        </section>
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Faculty of Legal, Economic, and Social Sciences – Morocco</strong></li>
+                <li>Major: Business Administration</li>
+                <li>Minor: Computer Science</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <ul>
+                <li>Languages: Arabic (Fluent), French (Intermediate), English</li>
+                <li>Website Design</li>
+                <li>Digital Marketing & Campaign Management</li>
+                <li>Time Management & Teamwork</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Work Experience</h2>
+            <ul>
+                <li><strong>Independent Digital Business Owner</strong></li>
+                <li>Selling digital products</li>
+                <li>Enhancing digital marketing strategies</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Activities & Hobbies</h2>
+            <ul>
+                <li>Video Gaming</li>
+                <li>Sports: Football & Gym</li>
+                <li>Learning programming and computing</li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Yasser Zahid - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
